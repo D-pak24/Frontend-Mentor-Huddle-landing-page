@@ -3,10 +3,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 body {
-  height: 100vh;
+  width: 100vw;
 }
 .nav img {
   width: 200px;
@@ -283,11 +282,13 @@ body {
   transition: all 0.3s ease-in;
 }
 .attribute {
+  text-align: center;
   position: absolute;
   top: 33em;
 }
 .attribute a {
   color: #fff;
+
   padding-left: 3px;
   padding-right: 3px;
   text-decoration: none;
@@ -354,7 +355,11 @@ body {
     margin-top: 1em;
     text-align: center;
   }
+  .footer {
+    width: 100%;
+  }
   .newsletter-content {
+    width: 85%;
     position: relative;
     margin-left: 3.5em;
   }
@@ -374,9 +379,10 @@ body {
     font-weight: 400;
   }
   .btn-2 {
+    margin-bottom: 10em;
     font-size: 1em;
     font-weight: 500;
-    padding: 0.7em 4em;
+    padding: 0.6em 3.9em;
   }
   .build-community h1 {
     font-size: 1.5em;
@@ -384,7 +390,7 @@ body {
   .btn-3 {
     font-size: 1em;
     font-weight: 500;
-    padding: 0.7em 4em;
+    padding: 0.6em 3.9em;
   }
   .nav img {
     width: 160px;
@@ -402,11 +408,19 @@ body {
     margin-right: 0;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+  .main h1 {
+    font-size: 2.3em;
+  }
+  .footer-bg {
+    height: 150vh;
+  }
+}
+@media (max-width: 470px) {
   .subscribe .btn-4 {
     position: absolute;
     left: 0;
-    top: 380px;
+    top: 400px;
     left: 90px;
     margin-left: 3em;
     padding: 0.3em 1.9em;
@@ -416,10 +430,13 @@ body {
     position: absolute;
     top: 35em;
   }
+  .main h1 {
+    margin-top: 3em;
+  }
 }
-@media (max-width: 350px) {
+@media (max-width: 370px) {
   .subscribe .btn-4 {
-    top: 400px;
+    top: 430px;
   }
   .attribute {
     position: absolute;
