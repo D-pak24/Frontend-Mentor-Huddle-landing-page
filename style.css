@@ -6,6 +6,7 @@
 }
 body {
   width: 100vw;
+  min-height: 100vh;
 }
 .nav img {
   width: 200px;
@@ -34,7 +35,7 @@ body {
   color: #fff;
 }
 .main {
-  margin-top: 5%;
+  margin-top: 5em;
   margin-left: 1em;
   margin-right: 1em;
   height: 85vh;
@@ -203,7 +204,7 @@ body {
   padding-left: 5em;
 }
 .footer-bg {
-  height: 100vh;
+  height: 150vh;
   background-color: hsl(192, 100%, 9%);
 }
 .footer-logo {
@@ -302,6 +303,9 @@ body {
 @media (max-width: 970px) {
   .main h1 {
     font-size: 2.8em;
+  }
+  .main p {
+    font-size: 1.5em;
   }
   .con {
     display: flex;
@@ -408,12 +412,36 @@ body {
     margin-right: 0;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+  .nav img {
+    width: 130px;
+  }
+  .main {
+    margin-bottom: 8em;
+  }
   .main h1 {
-    font-size: 2.3em;
+    margin-top: 10em;
+    font-size: 2em;
+  }
+  .main p {
+    width: 70%;
+    font-size: 1em;
+  }
+  .btnn {
+    font-size: 0.7em;
+    padding: 5px 15px;
   }
   .footer-bg {
     height: 150vh;
+  }
+  .section-h1 {
+    font-size: 1.6em;
+  }
+  .section-p {
+    font-size: 1em;
+  }
+  .build-community h1 {
+    font-size: 1.3em;
   }
 }
 @media (max-width: 470px) {
@@ -430,8 +458,16 @@ body {
     position: absolute;
     top: 35em;
   }
+  .main p {
+    font-size: 1em;
+  }
   .main h1 {
-    margin-top: 3em;
+    font-size: 1.6em;
+    margin-top: 8em;
+  }
+  .btn-2 {
+    font-size: 0.8em;
+    padding: 15px 30px;
   }
 }
 @media (max-width: 370px) {
