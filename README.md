@@ -17,4 +17,4 @@
 <br>
 <h2>What i learned:</h2>
 <br>
-<p>while doing this project i learned about keyframes and responsive...</p>
+<p>I learned about keyframes and responsive...</p>
